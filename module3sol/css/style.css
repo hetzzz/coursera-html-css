@@ -1,0 +1,60 @@
+body{
+	background: red;
+}
+
+#header-nav{
+	background: pink;
+}
+
+.navbar-brand a{
+	color: black;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #222;
+
+}
+.navbar-brand a:hover , .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-toggle{
+	color: black
+}
+
+#collapsable-nav li{
+	text-align: center;
+	font-size: 1.5em;
+	border: 1px;
+	border-color: #000000;
+}
+
+
+.menu{
+	text-align: center;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px #222;
+	margin-bottom: 20px;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #000000;
+	opacity: .9
+}
+
+.menulist a{
+	border: 1px solid black;
+	margin: 0px;
+}
+
+ .maincon1{
+	background: grey;
+}
+
+.maincon1 > section{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.maincon1 > p{
+	margin: 10px;
+}
